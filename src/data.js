@@ -3,7 +3,8 @@ export const pageLinks = [
   { id: 2, href: '#about', text: 'about us' },
   { id: 3, href: '#rooms', text: 'rooms' },
   { id: 4, href: '#customers', text: 'customers' },
-  { id: 5, href: '#footer', text: 'footer' },
+  { id: 5, href: '#footer', text: 'contact' },
+
 ];
 export const socialLinks = [
   { id: 1, href: 'https://www.linkedin.com/feed/', icon: 'fab fa-linkedin' },

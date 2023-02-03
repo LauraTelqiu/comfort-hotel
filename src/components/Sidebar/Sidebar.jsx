@@ -1,6 +1,7 @@
 import React from "react";
 import { socialLinks } from "../../data";
 import './sidbar.css'
+
 function Sidebar() {
   return (
     <div className="sidebar">
