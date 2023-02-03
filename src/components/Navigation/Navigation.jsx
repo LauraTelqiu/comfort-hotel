@@ -1,8 +1,10 @@
-import React from 'react'
 import './navigation.css'
 import { pageLinks } from '../../data'
 
 function Navigation() {
+
+
+
   return (
 
     <nav className="navigation">
@@ -20,6 +22,7 @@ function Navigation() {
           </button>
         </form>
       </div>
+
       <ul className="navigation-list">
         {pageLinks.map((link) => {
           const { id, href, text } = link
@@ -32,6 +35,9 @@ function Navigation() {
         })}
 
       </ul>
+      <div class="copyright">
+        <p>&copy; 2023. Royal Hotel. All Rights Reserved</p>
+      </div>
     </nav>
   )
 }
