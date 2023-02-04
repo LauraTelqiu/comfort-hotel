@@ -1,1 +1,1 @@
-# comfort-hotel
+# Royal Hotel React App
