@@ -1,6 +1,6 @@
 import React from "react";
 import { socialLinks } from "../../data";
-import './sidbar.css'
+import "./sidebar.css";
 
 function Sidebar() {
   return (
@@ -29,6 +29,7 @@ function Sidebar() {
           );
         })}
       </ul>
+
       <div className="year">
         <p>2023</p>
       </div>

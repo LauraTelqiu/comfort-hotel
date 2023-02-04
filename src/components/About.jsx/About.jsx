@@ -12,7 +12,7 @@ function About() {
             <div className="small-underline"></div>
             <div className="big-underline"></div>
           </div>
-          <h3 className="sub-heading">Grand Hotel</h3>
+          <h3 className="sub-heading">Royal Hotel</h3>
           <p className="about-us-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
             accusantium exercitationem qui quis perspiciatis totam dolores.

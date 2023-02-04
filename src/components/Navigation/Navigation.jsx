@@ -1,45 +1,51 @@
-import './navigation.css'
-import { pageLinks } from '../../data'
+
+
+
+
+import { useState } from "react";
+
+import "./navigation.css";
+import { pageLinks } from "../../data";
 
 function Navigation() {
+  const [showNav, setShowNav] = useState(true);
+  const [rotate, setRotate] = useState(0);
 
 
 
   return (
-
-    <nav className="navigation">
+    <nav className={`navigation ${showNav ? "" : "hide"}`}>
       <div className="navigation-header">
         <h1 className="navigation-heading">Royal Hotel</h1>
-
-        <form className="navigation-search">
-          <input
-            type="text"
-            className="navigation-search-input"
-            placeholder="Search..."
-          />
-          <button className="navigation-search-btn">
-            <i className="fas fa-search"></i>
-          </button>
-        </form>
       </div>
-
       <ul className="navigation-list">
         {pageLinks.map((link) => {
-          const { id, href, text } = link
+          const { id, href, text } = link;
           return (
             <li key={id} className="navigation-item">
-              <a href={href} className="navigation-link">{text}</a>
+              <a
+                href={href}
+                className="navigation-link"
+                onClick={() => {
+                  setShowNav(false);
+
+
+                }}
+              >
+                {text}
+              </a>
             </li>
-
-          )
+          );
         })}
-
       </ul>
-      <div class="copyright">
+      <div className="copyright">
         <p>&copy; 2023. Royal Hotel. All Rights Reserved</p>
       </div>
     </nav>
-  )
+  );
 }
 
-export default Navigation
+export default Navigation;
+
+
+
