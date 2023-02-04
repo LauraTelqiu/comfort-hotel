@@ -2,7 +2,10 @@ import image1 from './assets/about-us-img-1.jpeg'
 import image2 from './assets/about-us-img-2.jpeg'
 import image3 from './assets/about-us-img-3.jpeg'
 import image4 from './assets/about-us-img-4.jpeg'
-
+import single from './assets/single-room.jpeg'
+import double from './assets/double-room.jpeg'
+import lux from './assets/lux.jpeg'
+import vip from './assets/vip.jpeg'
 
 
 export const pageLinks = [
@@ -23,5 +26,36 @@ export const aboutImg = [
   { id: 2, img: image2, className: "image image-2" },
   { id: 3, img: image3, className: "image image-3" },
   { id: 4, img: image4, className: "image image-4" },
+
+];
+export const rooms = [
+  {
+    id: 1,
+    img: single,
+    title: 'Single Room',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    price: 99
+  },
+  {
+    id: 2,
+    img: double,
+    title: 'Double Room',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    price: 199
+  },
+  {
+    id: 3,
+    img: lux,
+    title: 'lux',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    price: 299
+  },
+  {
+    id: 4,
+    img: vip,
+    title: 'VIP',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
+    price: 399
+  },
 
 ];
