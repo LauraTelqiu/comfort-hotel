@@ -8,6 +8,7 @@ import lux from './assets/lux.jpeg'
 import vip from './assets/vip.jpeg'
 import rev1 from './assets/customer-1.jpeg'
 import rev2 from './assets/customer-2.jpeg'
+import rev3 from './assets/person-3_rxtqvi.jpeg'
 
 
 export const pageLinks = [
@@ -66,18 +67,26 @@ export const rooms = [
 
 
 
-export const reviews = [
+export const people = [
   {
     id: 1,
     name: "Helen Doe",
-    img: rev1,
+    image: rev1,
     text: "Happy Customer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus, vitae odio.Veniam alias, mollitia abrem tenetur sint ex."
   },
   {
     id: 2,
-    img: rev2,
+    image: rev2,
     name: "Monica Smith",
+    text: "Happy Customer",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus, vitae odio.Veniam alias, mollitia abrem tenetur sint ex."
+  },
+
+  {
+    id: 3,
+    image: rev3,
+    name: 'Hester Hogan',
     text: "Happy Customer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus, vitae odio.Veniam alias, mollitia abrem tenetur sint ex."
   },

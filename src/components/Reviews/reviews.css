@@ -5,7 +5,7 @@
 }
 
 .customers-paragraph {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #ddd;
   width: 50%;
   margin: 2rem auto 8rem auto;
@@ -14,13 +14,17 @@
 
 .customers-card-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  justify-content: center;
 }
 
 .customer-card {
   background-color: #eee;
-  width: 60rem;
+  width: 80rem;
   display: flex;
+  font-size: medium;
+
+
 }
 
 .customer-image-wrapper {
@@ -51,4 +55,21 @@
 .customer-paragraph-2 {
   font-size: 1.3rem;
   font-style: italic;
+}
+
+
+.prev-btn,
+.next-btn {
+  color: #b85d1c;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--clr-primary-5);
 }
