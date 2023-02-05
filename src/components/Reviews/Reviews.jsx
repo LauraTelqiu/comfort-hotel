@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./reviews.css";
 import { people } from "../../data";
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 function Reviews() {
   const [index, setIndex] = useState(0);
-  const { name, image, text, desc } = people[index];
+  const { name, image, stars, desc } = people[index];
   const checkNumber = (number) => {
     if (number > people.length - 1) {
       return 0;
@@ -27,6 +27,7 @@ function Reviews() {
       return checkNumber(newIndex);
     });
   };
+
 
   return (
     <section className="customers">
@@ -51,7 +52,14 @@ function Reviews() {
           </div>
           <div className="customer-info">
             <h3 className="customer-fullname">{name}</h3>
-            <p className="customer-paragraph-1">{text}</p>
+            <p className="customer-paragraph-1">
+              {[1, 2, 3, 4, 5].map((star) => (
+                star <= 5 ? <span key={star} className="full-star">★</span> : <span key={star} className="empty-star">☆</span>
+              ))}
+            </p>
+
+
+            {/* <p className="customer-paragraph-1"></p> */}
             <p className="customer-paragraph-2">{desc} </p>
             <div className='button-container'>
               <button className='prev-btn' onClick={prevPerson}>
@@ -65,7 +73,7 @@ function Reviews() {
         </div>
         )
       </div>
-    </section>
+    </section >
   );
 }
 

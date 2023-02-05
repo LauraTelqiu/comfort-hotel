@@ -52,6 +52,14 @@
   color: #b85d1c;
 }
 
+.full-star {
+  color: #FFD700;
+}
+
+.empty-star {
+  color: #C0C0C0;
+}
+
 .customer-paragraph-2 {
   font-size: 1.3rem;
   font-style: italic;

@@ -72,14 +72,14 @@ export const people = [
     id: 1,
     name: "Helen Doe",
     image: rev1,
-    text: "Happy Customer",
+    stars: "fas fa- star",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus, vitae odio.Veniam alias, mollitia abrem tenetur sint ex."
   },
   {
     id: 2,
     image: rev2,
     name: "Monica Smith",
-    text: "Happy Customer",
+    stars: "fas fa- star",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus, vitae odio.Veniam alias, mollitia abrem tenetur sint ex."
   },
 
@@ -87,7 +87,7 @@ export const people = [
     id: 3,
     image: rev3,
     name: 'Hester Hogan',
-    text: "Happy Customer",
+    stars: "fas fa- star",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus, vitae odio.Veniam alias, mollitia abrem tenetur sint ex."
   },
 ]
