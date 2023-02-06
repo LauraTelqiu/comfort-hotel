@@ -9,6 +9,12 @@ import vip from './assets/vip.jpeg'
 import rev1 from './assets/customer-1.jpeg'
 import rev2 from './assets/customer-2.jpeg'
 import rev3 from './assets/person-3_rxtqvi.jpeg'
+import gallery1 from './assets/gallery-img-1.jpeg'
+import gallery2 from './assets/gallery-img-2.jpeg'
+import gallery3 from './assets/gallery-img-3.jpeg'
+import gallery4 from './assets/gallery-img-4.jpeg'
+import gallery5 from './assets/gallery-img-5.jpeg'
+import gallery6 from './assets/gallery-img-6.jpeg'
 
 
 export const pageLinks = [
@@ -49,7 +55,7 @@ export const rooms = [
   {
     id: 3,
     img: lux,
-    title: 'lux',
+    title: 'Lux',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
     price: 299
   },
@@ -95,3 +101,29 @@ export const people = [
 
 
 
+export const gallery = [
+  {
+    id: 1,
+    img: gallery1
+  },
+  {
+    id: 2,
+    img: gallery2
+  },
+  {
+    id: 3,
+    img: gallery3
+  },
+  {
+    id: 4,
+    img: gallery4
+  },
+  {
+    id: 5,
+    img: gallery5
+  },
+  {
+    id: 6,
+    img: gallery6
+  },
+]
