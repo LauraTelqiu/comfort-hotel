@@ -5,7 +5,7 @@ import { rooms } from "../../data";
 
 function Rooms() {
   return (
-    <section className="rooms">
+    <section className="rooms" id="rooms">
       <div className="common-header">
         <h1 className="common-heading">Rooms In Royal Hotel</h1>
         <div className="underline">

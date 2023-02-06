@@ -5,7 +5,7 @@ import Sidebar from "../SideBar/Sidebar";
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" id='navbar'>
       <input type="checkbox" className="checkbox" id="click" hidden />
       <Sidebar />
       <Navigation />

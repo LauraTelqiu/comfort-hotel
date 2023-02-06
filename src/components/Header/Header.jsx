@@ -4,7 +4,7 @@ import "./header.css"
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id='header'>
       <div className="brand">
         <div>
           <img src={crown} width="80" />

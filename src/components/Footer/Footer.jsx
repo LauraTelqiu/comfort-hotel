@@ -4,7 +4,7 @@ import "./footer.css"
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="main-part">
         <div className="footer-list-wrapper">
           <h3 className="footer-heading">Royal Hotel</h3>
