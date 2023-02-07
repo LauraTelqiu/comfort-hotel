@@ -1,16 +1,43 @@
+/* common header */
+.common-header {
+  padding: 5rem;
+  text-align: center;
+  color: #b85d1c;
+}
+
+.common-heading {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
+}
+
+.small-underline {
+  width: 9rem;
+  height: .1rem;
+  margin: 0 auto 1rem auto;
+  background-color: #b85d1c;
+}
+
+.big-underline {
+  width: 20rem;
+  height: .1rem;
+  margin: auto;
+  background-color: #b85d1c;
+}
+
+/* end of common header */
 .rooms {
   margin-left: 8rem;
 }
 
 .rooms-cards-wrapper {
   display: flex;
-
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .room-card {
-  width: 60rem;
+  width: 55rem;
   margin: 5rem;
   background-color: #15141b;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, .3);
