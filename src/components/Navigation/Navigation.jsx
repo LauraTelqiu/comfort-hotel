@@ -1,9 +1,4 @@
-
-
-
-
-// import { useState } from "react";
-
+import React from "react";
 import "./navigation.css";
 import { pageLinks } from "../../data";
 
@@ -20,9 +15,11 @@ function Navigation() {
         <h1 className="navigation-heading">Royal Hotel</h1>
       </div>
       <ul className="navigation-list">
+
         {pageLinks.map((link) => {
           const { id, href, text } = link;
           return (
+
             <li key={id} className="navigation-item">
               <a
                 href={href}
