@@ -30,7 +30,7 @@ function Reviews() {
 
 
   return (
-    <section className="customers" id="customers">
+    <section className="customers" id="reviews">
       <div className="common-header">
         <h1 className="common-heading">Our Reviews</h1>
         {/* <div className="underline">
