@@ -21,7 +21,7 @@ export const pageLinks = [
   { id: 1, href: '#header', text: 'home' },
   { id: 2, href: '#about', text: 'about us' },
   { id: 3, href: '#rooms', text: 'rooms' },
-  { id: 4, href: '#customers', text: 'customers' },
+  { id: 4, href: '#reviews', text: 'reviews' },
   { id: 5, href: '#footer', text: 'contact' },
 
 ];
