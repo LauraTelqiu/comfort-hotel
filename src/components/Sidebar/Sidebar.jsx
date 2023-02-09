@@ -5,7 +5,7 @@ import "./sidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">
-      {/* <label htmlFor="click"> */}
+      <label htmlFor="click">
         <div className="menu-icon">
           <div className="line line-1"></div>
           <div className="line line-2"></div>
