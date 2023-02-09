@@ -1,7 +1,7 @@
 import React from "react";
 import "../Navigation/navigation.css";
 import Navigation from "../Navigation/Navigation"
-import Sidebar from "../SideBar/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 
 function Navbar() {
   return (
