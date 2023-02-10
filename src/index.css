@@ -11,10 +11,6 @@ body {
 
 
 @media(max-width: 1400px) {
-  .sidebar {
-    width: 6rem;
-  }
-
   .customers-card-wrapper {
     flex-direction: column;
     align-items: center;
@@ -38,10 +34,6 @@ body {
 }
 
 @media(max-width: 1200px) {
-  .sidebar {
-    width: 6rem;
-  }
-
   .about-us {
     flex-direction: column;
     padding-bottom: 20rem;
@@ -57,10 +49,6 @@ body {
 }
 
 @media(max-width: 900px) {
-  .sidebar {
-    width: 6rem;
-  }
-
   .banner {
     text-align: center;
   }
@@ -80,10 +68,6 @@ body {
 }
 
 @media(max-width: 750px) {
-  .sidebar {
-    width: 6rem;
-  }
-
   .customer-card {
     flex-direction: column;
     width: 20rem;
@@ -108,10 +92,6 @@ body {
 }
 
 @media(max-width: 500px) {
-  .sidebar {
-    width: 6rem;
-  }
-
   .navigation {
     width: 28rem;
   }

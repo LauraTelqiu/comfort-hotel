@@ -1,5 +1,5 @@
 .sidebar {
-  width: 8rem;
+  width: 6rem;
   height: 100%;
   background-color: #eee;
   position: fixed;
@@ -43,7 +43,7 @@
 }
 
 .social-link {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #777;
   transition: color .3s;
 }
